@@ -51,15 +51,6 @@ const checkWinner=()=>{
                 resetBtn.innerText='New Game';
             }
             else{}
-        }
-        // else if (boxes[0].innerText!='' && boxes[1].innerText!='' && boxes[2].innerText!='' && boxes[3].innerText!='' && boxes[4].innerText!='' && boxes[5].innerText!='' && boxes[6].innerText!='' && boxes[7].innerText!='' && boxes[8].innerText!=''){
-        //     if (boxes[pattern[0]].textContent!=boxes[pattern[1]].textContent || boxes[pattern[1]].textContent!=boxes[pattern[2]].textContent || boxes[pattern[0]].textContent!=boxes[pattern[2]].textContent){
-        //         winner.innerHTML='Ups! Game Is Draw';
-        //         winner.style.visibility='visible';
-        //         resetBtn.innerText='New Game';
-        //     }
-        //     else{}
-            
-        // }
+        else{}
     });
 }
