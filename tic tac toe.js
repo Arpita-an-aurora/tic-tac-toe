@@ -51,6 +51,7 @@ const checkWinner=()=>{
                 resetBtn.innerText='New Game';
             }
             else{}
+        }
         else{}
     });
 }
